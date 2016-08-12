@@ -1,0 +1,167 @@
+/*reset*/
+ul li{
+	list-style: none;
+}
+.navbar{
+	margin-bottom: 0;
+}
+/*居中h3标题*/
+.h3-center {
+    width: 100%;
+    line-height: 25px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    color: #447791;
+    position: relative;
+}
+.h3-center:before {
+    left: 0;
+}
+.h3-center:after, .h3-center:before {
+    content: '';
+    width: 360px;
+    height: 1px;
+    background-color: #dbdbdb;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+/*底部*/
+.footer{
+	width: 100%;
+	height:120px;
+	background:#242F38;
+}
+/*个人中心主体*/
+.wrapper{
+	background-color: #F1F4F6;
+	padding:34px 0;
+}
+.main{
+	width: 1024px;
+	margin:0 auto;
+	background-color: #fff;
+}
+/*基本信息*/
+.main .baseinfo{
+/*	width: 400px;*/
+	position: relative;
+	margin:0 auto;
+}
+.main .baseinfo .head-img{
+	width: 140px;
+	height: 140px;
+	margin:0 auto;
+}
+.main .baseinfo .name{
+	font-weight: bold;
+	text-align: center;
+	font-size: 26px;
+}
+.baseinfo .baseinfoEdit{
+	position: absolute;
+	right: 35px;
+	top: 35px;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+}
+/*简历*/
+.resume-list{
+	margin:0 50px;
+}
+.resume-list .list{
+	
+}
+.resume-list .list p{
+	margin-bottom: 8px;
+	color: #555;
+}
+.resume-list .list a{
+	margin-top: 4px;
+}
+.resume-name{
+	font-size: 16px;
+	font-weight: bold;
+}
+/*收藏*/
+.collect .panel{
+	margin-top: 50px;
+}
+.collect .nav{
+	margin-left: 407px;
+}
+
+/*职位收藏*/
+/*公司收藏*/
+.item{
+	width: 95%;
+	margin:0 auto;
+	height: 106px;
+	background: #fafbfb;
+	position: relative;
+	margin-top: 20px;
+}
+.item div{
+    width: 550px;
+    padding: 30px;
+    position: relative;
+}
+.item ul{
+	position: absolute;
+	right: 55px;
+	top: 40px;
+}
+.item ul:after {
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+.item ul li {
+    width: 80px;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 55px;
+    font-size: 12px;
+    float: left;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    opacity: .7;
+    filter: alpha(Opacity=70);
+}
+
+.item ul li:hover {
+    opacity: 1;
+    filter: alpha(Opacity=100);
+}
+
+.item img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #eee;
+    position: absolute;
+    top: 17px;
+    right: 47px;
+    box-shadow: 46px 0 0 0 #fafbfb,
+    47px 0 0 0 #ddd;
+}
+
+.item .close {
+    background: #ccc;
+}
+
+.item .deliver, .deliver_url {
+    background: #02a0e9;
+}
+.deliver a{
+    color: #fff;
+    text-decoration: none;
+}

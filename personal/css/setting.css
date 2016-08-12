@@ -1,0 +1,51 @@
+/*reset*/
+ul li{
+	list-style: none;
+}
+.navbar{
+	margin-bottom: 0;
+}
+/*页面主体*/
+.main{
+	width: 100%;
+	height: 500px;
+	padding-top: 35px;
+	background: #F1F4F6;
+}
+/*底部*/
+.footer{
+	width: 100%;
+	height:120px;
+	background:#242F38;
+}
+/*密码修改*/
+.box {
+    font-size: 18px;
+}
+.box .sider{
+	width: 270px;
+	background-color: #fff;
+	float: left;
+}
+.box .sider .sider-item{
+	width:210px;
+	line-height: 68px;
+	padding: 0 30px;
+	cursor: pointer;
+	text-align: center;
+}
+.box .panel{
+	background-color: #fff;
+	margin: 0 0 0 304px;
+	width: 720px;
+	height: 600px;
+	overflow: hidden;
+}
+.box .panel .wrapper{
+	width: 440px;
+	margin:30px auto;
+}
+.pw-box li{
+	line-height: 45px;
+	margin: 20px 0 0 0;
+}

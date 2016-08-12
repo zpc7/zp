@@ -1,0 +1,142 @@
+/*reset*/
+ul li{
+	list-style: none;
+}
+.navbar{
+	margin-bottom: 0;
+}
+.nav.navbar-nav.navbar-right{
+	margin:8px 0;
+}
+body{
+	background-color: #F1F4F6;
+}
+/*h3-center*/
+/*居中h2标题*/
+.h3-center {
+    width: 100%;
+    line-height: 25px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    color: #447791;
+    position: relative;
+}
+.h3-center:before {
+    left: 0;
+}
+.h3-center:after, .h3-center:before {
+    content: '';
+    width: 360px;
+    height: 1px;
+    background-color: #dbdbdb;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+/*底部*/
+.footer{
+	width: 100%;
+	height:120px;
+	clear: both;
+	background:#242F38;
+}
+/*主体*/
+.main{
+	background-color: #fff;
+	margin:34px auto;
+}
+/*详情页*/
+.panel-heading{
+	height: 72px;
+	padding:0 20px 0 30px;
+	position: relative;
+}
+.job-name{
+	color: #02a0e9;
+    font-size: 24px;
+    line-height: 72px;
+    width: 380px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.update-time{
+	font-size: 14px;
+	color: #999999;
+	position: absolute;
+	top: 26px;
+	right: 90px;
+}
+.collection{
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	width: 22px;
+	height: 22px;
+    background-image: url('../images/collect.png');
+    cursor: pointer;
+}
+.collect_active {
+    background-image: url("../images/collect_active.png");
+}
+.job-description{
+	font-size: 16px;
+	color: #333;
+	font-weight: 500;
+	margin: 30px 0 0 30px;
+}
+.content{
+	font-size: 14px;
+	color: #555;
+	display: block;
+	margin: 30px 40px 40px 30px;
+}
+.deliver{
+	display: block;
+    text-align: center;
+    width: 160px;
+    height: 50px;
+    background: #02a0e9;
+    margin: 30px auto;
+    line-height: 50px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+.deliver a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.com{
+	color: #02a0e9;
+    font-size: 24px;
+    line-height: 72px;
+    width: 380px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.com-logo img{
+	display: block;
+	width: 110px;
+	height: 110px;
+	margin:30px auto 15px;
+	border:1px solid #eee;
+}
+.com-name{
+	font-size: 20px;
+	color: #333;
+	display: inline-block;
+	text-align: center;
+}
