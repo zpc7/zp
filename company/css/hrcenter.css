@@ -1,0 +1,46 @@
+/*reset*/
+ul li{
+	list-style: none;
+}
+.navbar{
+	margin-bottom: 0;
+}
+.nav.navbar-nav.navbar-right{
+	margin:8px 0;
+}
+/*页面主体*/
+.main{
+	width: 100%;
+	padding-top: 35px;
+	background: #F1F4F6;
+}
+/*底部*/
+.footer{
+	clear: both;
+	width: 100%;
+	height:120px;
+	background:#242F38;
+}
+/*密码修改*/
+.wrapper{
+	width: 1024px;
+	margin:0 auto;
+	padding-bottom: 20px;
+}
+.wrapper .sider{
+	width: 270px;
+	background-color: #fff;
+	float: left;
+}
+
+.wrapper .content{
+	background-color: #fff;
+	margin: 0 0 0 304px;
+	width: 720px;
+	padding:0 10px;
+	height: auto;
+	overflow: hidden;
+}
+iframe{
+	height:800px!important;
+}

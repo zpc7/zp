@@ -1,0 +1,76 @@
+li{
+	list-style: none;
+}
+.bg-box{
+	width: 100%;
+	height: 300px;
+	background-color: #00B38A;
+}
+.module{
+	position: absolute;
+	left: 30%;
+	top: 10%;
+	width: 450px;
+	height: 500px;
+	background-color: #fff;
+}
+.wrapper {
+    padding: 40px;
+}
+
+ul.reg-info li input,#submit{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    color: #333;
+    padding-left: 10px;
+}
+#submit{
+	background-color: #00B38A;
+	cursor: pointer;
+}
+
+/*------------------*/
+/*注册信息*/
+ul.reg-info{
+	padding-left: 0;
+}
+ul.reg-info li{
+	list-style: none;
+}
+.error {
+    color: red;
+    visibility: hidden;
+}
+#verify{
+	width: 190px;
+}
+/*注册类型*/
+.reg-type{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.reg-type div{
+	display: inline-block;
+	width: 49%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #777;
+    cursor: pointer;
+}
+.reg-type .active {
+    color: #fff;
+    background: #00B38A;
+}
+/*用户协议*/
+.checkbox{
+	padding-left: 25px;
+	margin-bottom: 20px;
+	font: 14px/22px "Microsoft YaHei",Verdana,Arial;
+}
+.protocol{
+	margin-left: 20px;
+}

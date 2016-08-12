@@ -1,0 +1,61 @@
+/*reset*/
+ul li{
+	list-style: none;
+}
+.navbar{
+	margin-bottom: 0;
+}
+body{
+	background-color: #F1F4F6;
+}
+/*h3-center*/
+/*居中h2标题*/
+.h3-center {
+    width: 100%;
+    line-height: 25px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    color: #447791;
+    position: relative;
+}
+.h3-center:before {
+    left: 0;
+}
+.h3-center:after, .h3-center:before {
+    content: '';
+    width: 360px;
+    height: 1px;
+    background-color: #dbdbdb;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+/*底部*/
+.footer{
+	width: 100%;
+	height:120px;
+	clear: both;
+	background:#242F38;
+}
+/*主体*/
+.main{
+	width: 1024px;
+	margin:0 auto;
+	background-color: #fff;
+	margin:34px auto;
+}
+.job-title{
+	width: 160px;
+	height:80px;
+	background: red;
+}
+.com-sub{
+	width: 200px;
+	height: 80px;
+	background: green;
+}

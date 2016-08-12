@@ -1,0 +1,190 @@
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.search-input-box {
+  display: inline-block;
+  border: 2px solid #02a0e9;
+  overflow: hidden;
+}
+
+.search-input-box input {
+  float: left;
+  width: 550px;
+  height: 35px;
+  padding: 0 15px;
+  border: 0;
+  font-size: 16px;
+  line-height: 35px;
+  color: #333333;
+  background: #f4f4f4;
+  outline: none;
+}
+
+.search-input-box input.focus {
+  animation: inputfocus 400ms linear 0s 1 normal;
+/* Firefox: */
+-moz-animation: inputfocus 400ms linear 0s 1 normal;
+/* Safari 和 Chrome: */
+-webkit-animation: inputfocus 400ms linear 0s 1 normal;
+/* Opera: */
+-o-animation: inputfocus 400ms linear 0s 1 normal;
+}
+
+.search-input-box a {
+  float: left;
+  height: 35px;
+  padding: 0 15px;
+  border: 0;
+  font-size: 16px;
+  color: #fff;
+  line-height: 35px;
+  background: #02a0e9;
+}
+
+.search-input-box a:link,
+.search-input-box a:visited,
+.search-input-box a:hover,
+.search-input-box a:active {
+  text-decoration: none;
+}
+
+.search-list {
+  width: 648px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.search-list .list-title {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.search-list .list-title h2,
+.search-list .list-title ul,
+.search-list .list-title ul li {
+  float: left;
+}
+
+.search-list .list-title h2 {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.search-list .list-title ul,
+.search-list .list-title li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.search-list .list-title ul {
+  margin-left: 20px;
+}
+
+.search-list .list-title li {
+  padding: 4px 6px;
+  margin-right: 16px;
+  margin-top: -4px;
+  font-size: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.search-list .list-title li.active {
+  color: #fff;
+  background-color: #02a0e9;
+}
+
+.list-item-box {
+  padding: 8px 12px;
+}
+
+.list-item-box .list-item {
+  padding: 10px 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.list-item-box .list-item:hover {
+  box-shadow: 0 0 9px 1px #ddd;
+}
+
+.list-item-box .list-item dl {
+  float: left;
+}
+
+.search-list .list-item img {
+	width: 105px;
+  height: 105px;
+  float: right;
+}
+
+.list-item-box .list-item dl.list-item-title {
+	 width: 260px;
+	 overflow: hidden;
+}
+
+.list-item-box dl.list-item-title, .list-item dl.list-item-title a {
+	color: #447791;
+}
+
+.list-item-box .list-item dl dt {
+	font-size: 16px;
+	padding-top: 16px;
+	padding-bottom: 30px;
+}
+
+.list-item-box dl.list-item-detail {
+	 color: #96999e;
+}
+
+.search-list .paging {
+	text-align: center;
+}
+
+.search-list .paging ul, .search-list .paging li {
+	margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.search-list .paging ul {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: inline-block;
+}
+
+.search-list .paging li {
+	float: left;
+	padding: 4px 8px;
+	margin-right: 6px;
+	color: #fff;
+	border-radius: 4px;
+	background-color: #b5d5e8;
+	cursor: pointer;
+}
+
+.search-list .paging li.active {
+	background-color: #02a0e9;
+	cursor: default;
+}
+
+.search-list .paging li.disabled {
+  background-color: #D2D2D2;
+  cursor: default;
+}
+
+@keyframes inputfocus {
+  0%{
+    background: red;
+  }
+  100%{
+    background: #f4f4f4;
+  }
+
+}

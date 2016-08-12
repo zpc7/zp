@@ -1,0 +1,107 @@
+/*reset*/
+ul li{
+	list-style: none;
+}
+.navbar{
+	margin-bottom: 0;
+}
+.nav.navbar-nav.navbar-right{
+	margin:8px 0;
+}
+body{
+	background-color: #F1F4F6;
+}
+/*h3-center*/
+/*居中h2标题*/
+.h3-center {
+    width: 100%;
+    line-height: 25px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    color: #447791;
+    position: relative;
+}
+.h3-center:before {
+    left: 0;
+}
+.h3-center:after, .h3-center:before {
+    content: '';
+    width: 360px;
+    height: 1px;
+    background-color: #dbdbdb;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+/*底部*/
+.footer{
+	width: 100%;
+	height:120px;
+	clear: both;
+	background:#242F38;
+}
+/*主体*/
+.main{
+	width: 1024px;
+	margin:0 auto;
+	background-color: #fff;
+	margin:34px auto;
+}
+/*公司基本信息*/
+.top{
+	width: 100%;
+	height: 320px;
+	/*background-color: #4390EE;*/
+	background: url('../../company/images/bg.jpg');
+	/*background: url("http://www.sxsimg.com/static/img/com_bg.jpg") no-repeat;*/
+}
+.top .top-brand{
+	width: 120px;
+	margin:0 auto;
+}
+.top .top-brand img{
+	width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-top: 50px;
+    border: 5px solid rgba(250, 250, 250, 0.3);
+    background-color: #fff;
+    background-clip: content-box;
+}
+.top .top-name h2{
+	color: #fff;
+}
+.tab{
+	width: 250px;
+	height: 60px;
+	margin:0 auto;
+}
+.tab li{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 60px;
+	padding:0 10px;
+}
+.tab li.active{
+	box-shadow: 0 -3px 0 0 #02a0e9 inset;
+}
+.content{
+	margin-top: 20px;
+}
+.content .content-left{
+	display: none;
+	float: left;
+	width: 750px;
+	background: #fff;
+}
+.content .content-right{
+	width: 250px;
+    padding: 10px 20px 20px 20px;
+    float: right;
+    background: #fff;
+}

@@ -1,0 +1,34 @@
+body {
+    background: url(../images/userlogin_bg.jpg) no-repeat;
+}
+
+.module {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    width: 415px;
+    height: 360px;
+    background: #fff;
+    border-radius: 5%;
+}
+.wrapper {
+    padding: 14px 40px 0 50px;
+}
+
+.wrapper .login form>input {
+    width: 313px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 15px;
+    margin:8px 0;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.identify{
+    margin:4px 0;
+    padding-left: 10px;
+}
+.tips{
+    padding-left: 10px;
+    margin:4px 0;
+}
